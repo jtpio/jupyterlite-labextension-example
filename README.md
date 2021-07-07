@@ -9,7 +9,7 @@ This repository demonstrates how to develop a JupyterLab extension with [Jupyter
 
 ![image](https://user-images.githubusercontent.com/591645/124813239-eebcb400-df64-11eb-915b-775b792b489c.png)
 
-![image](https://user-images.githubusercontent.com/591645/124815997-44469000-df68-11eb-9332-1255c75bf272.png)
+![image](https://user-images.githubusercontent.com/591645/124816061-59bbba00-df68-11eb-90ef-702df797aa9e.png)
 
 ## Requirements
 
