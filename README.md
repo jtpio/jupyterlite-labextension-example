@@ -7,6 +7,8 @@ This repository demonstrates how to develop a JupyterLab extension with [Jupyter
 - add instructions to use the extension with JupyterLite
 - enable deploy previews on PR using JupyterLite deployed on [Netlify](https://www.netlify.com/)
 
+![image](https://user-images.githubusercontent.com/591645/124813239-eebcb400-df64-11eb-915b-775b792b489c.png)
+
 ## Requirements
 
 * JupyterLab >= 3.0
