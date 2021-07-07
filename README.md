@@ -1,31 +1,16 @@
-# jupyterlite_labextension_example
+# JupyterLite Lab Extension Example
 
-![Github Actions Status](https://github.com/github_username/jupyterlite-labextension-example/workflows/Build/badge.svg)
+![Github Actions Status](https://github.com/jtpio/jupyterlite-labextension-example/workflows/Build/badge.svg)
 
-Example JupyterLab Extension workflow with Jupyterlite
+This repository demonstrates how to develop a JupyterLab extension with [JupyterLite](https://github.com/jtpio/jupyterlite):
 
-
+- add instructions to use the extension with JupyterLite
+- enable deploy previews on PR using JupyterLite deployed on [Netlify](https://www.netlify.com/)
 
 ## Requirements
 
 * JupyterLab >= 3.0
-
-## Install
-
-To install the extension, execute:
-
-```bash
-pip install jupyterlite_labextension_example
-```
-
-## Uninstall
-
-To remove the extension, execute:
-
-```bash
-pip uninstall jupyterlite_labextension_example
-```
-
+* JupyterLite >= 0.1.0a3
 
 ## Contributing
 
@@ -64,6 +49,26 @@ By default, the `jlpm run build` command generates the source maps for this exte
 ```bash
 jupyter lab build --minimize=False
 ```
+
+### Testing with JupyterLite
+
+To test with JupyterLite, follow the steps above just like for a normal JupyterLab extension.
+
+Make sure you have JupyterLite installed:
+
+```bash
+pip install jupyterlite
+```
+
+```bash
+# build the JupyterLite site
+jupyter lite build
+
+# start a JupyterLite static server
+jupyter lite serve
+```
+
+In a web browser, open http://localhost:8000/lab/index.html to access JupyterLite.
 
 ### Development uninstall
 
