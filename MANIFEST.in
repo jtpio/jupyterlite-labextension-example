@@ -8,6 +8,8 @@ include package.json
 include install.json
 include ts*.json
 include yarn.lock
+include requirements.txt
+include runtime.txt
 
 graft jupyterlite_labextension_example/labextension
 
