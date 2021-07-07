@@ -110,3 +110,7 @@ dmypy.json
 
 # OSX files
 .DS_Store
+
+# jupyterlite
+*.doit.db
+_output
