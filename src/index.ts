@@ -11,6 +11,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
     console.log('jupyterlite-labextension-example is activated!');
+    console.log('test changes');
   }
 };
 
