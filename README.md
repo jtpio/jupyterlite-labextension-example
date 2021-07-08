@@ -2,7 +2,7 @@
 
 ![Github Actions Status](https://github.com/jtpio/jupyterlite-labextension-example/workflows/Build/badge.svg)
 
-This repository demonstrates how to develop a JupyterLab extension with [JupyterLite](https://github.com/jtpio/jupyterlite):
+This repository demonstrates how to develop a JupyterLab extension with [JupyterLite](https://github.com/jupyterlite/jupyterlite):
 
 - add instructions to use the extension with JupyterLite
 - enable deploy previews on PR using JupyterLite deployed on [Netlify](https://www.netlify.com/)
